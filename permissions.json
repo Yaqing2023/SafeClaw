@@ -1,0 +1,87 @@
+{
+  "roles": {
+    "admin": {
+      "description": "全部权限",
+      "features": [
+        "*"
+      ]
+    },
+    "ecommerce_ops": {
+      "description": "电商运营管理员 - 可查询订单、发货、处理回单",
+      "features": [
+        "chat",
+        "search",
+        "read",
+        "exec"
+      ]
+    },
+    "power_user": {
+      "description": "可以读写文件",
+      "features": [
+        "chat",
+        "search",
+        "read",
+        "write"
+      ]
+    },
+    "user": {
+      "description": "可以搜索和读取文件",
+      "features": [
+        "chat",
+        "search",
+        "read"
+      ]
+    },
+    "viewer": {
+      "description": "只能搜索和对话",
+      "features": [
+        "chat",
+        "search"
+      ]
+    }
+  },
+  "features": {
+    "chat": "与机器人对话",
+    "search": "网络搜索",
+    "read": "读取文件",
+    "write": "写入文件",
+    "exec": "执行命令"
+  },
+  "users": {
+    "ou_76144b19338c26627d5f646ed1132d45": {
+      "name": "王亚卿",
+      "role": "admin",
+      "chat_id": "oc_ba9618bf8d15dea647056117e75501ba"
+    },
+    "ou_0fb08dc2b92abb4fafe4b85907594f0d": {
+      "name": "刘涛",
+      "role": "admin",
+      "chat_id": "oc_e09e7e181c668095f4816b5880c58f14"
+    },
+    "ou_a2bbf0c1215b83dd1f6132d053bccc56": {
+      "name": "铁龙",
+      "role": "admin",
+      "chat_id": "oc_8fe5d726f73d907a6162df6ce95c8b8f"
+    },
+    "ou_f8a8dc96dec5a26a64a8fe4200e17fc2": {
+      "name": "Judis",
+      "role": "ecommerce_ops",
+      "chat_id": "oc_b80f876521363a0c6ac23d65ceb70a87"
+    },
+    "ou_d447524702f6e0678377d8f34e003c43": {
+      "name": "段思远",
+      "role": "ecommerce_ops",
+      "chat_id": "oc_b80f876521363a0c6ac23d65ceb70a87"
+    },
+    "ou_93d9781536abd73aa3c807af0ff21686": {
+      "name": "Annie",
+      "role": "admin",
+      "chat_id": "oc_5d76c0f08c9dc6fd40fba7e16eaaef1e"
+    },
+    "ou_0d67abb3c663a8c1aeed960009ecaf66": {
+      "name": "王冠卿",
+      "role": "user",
+      "chat_id": "oc_c8717fd33f128da5e4c0886f93cbdaf9"
+    }
+  }
+}

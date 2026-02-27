@@ -1,0 +1,16 @@
+{
+  "pending": {
+    "ou_9da3759bebd0f80496a5aca6fcd0d2a2": {
+      "name": "ou_9da3759bebd0f80496a5aca6fcd0d2a2",
+      "requested_role": "viewer",
+      "chat_id": "oc_8b50189a5b32334acd87c66bd2bb3bc9",
+      "created_at": 1770091925.8805542
+    },
+    "ou_93d9781536abd73aa3c807af0ff21686": {
+      "name": "ou_93d9781536abd73aa3c807af0ff21686",
+      "requested_role": "power_user",
+      "chat_id": "oc_bbfbc668c08fb9bcd9f070f75dd21d6a",
+      "created_at": 1771038149.4528275
+    }
+  }
+}

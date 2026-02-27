@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "users": [
+    "ou_76144b19338c26627d5f646ed1132d45",
+    "ou_0fb08dc2b92abb4fafe4b85907594f0d",
+    "ou_a2bbf0c1215b83dd1f6132d053bccc56",
+    "ou_f8a8dc96dec5a26a64a8fe4200e17fc2",
+    "ou_d447524702f6e0678377d8f34e003c43",
+    "ou_93d9781536abd73aa3c807af0ff21686",
+    "ou_0d67abb3c663a8c1aeed960009ecaf66"
+  ],
+  "bots": [
+    "ou_fff7f80639426434052ef4b628794b34"
+  ],
+  "note_users": "王亚卿 / 刘涛 / 铁龙 / Judis / 段思远 / Annie / 王冠卿",
+  "note_bots": "Annie营销小蜜"
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Feishu Bridge for Clawdbot
+After=network.target
+
+[Service]
+Type=simple
+User=juhe0092
+WorkingDirectory=/home/juhe0092/clawd/feishu-bridge
+ExecStart=/home/juhe0092/clawd/.venv/bin/python server.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
